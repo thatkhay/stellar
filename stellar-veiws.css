@@ -1,0 +1,113 @@
+body{
+    font-family: 'Caveat', cursive;
+    background-color: black;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    text-align: center;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    color: #e91010;
+    font-weight: 700;
+    
+}
+
+html{
+    height: 100%;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    color: #e91010;
+}
+
+ p{
+    color: #e91010;
+    font-weight: 400;
+ }
+ h5{
+    font-size: small;
+ }
+ img{
+    height: 13rem;
+    width: 100%;
+    border: black;
+    margin-top: 1rem;
+    display: none;
+ }
+ iframe{
+    height: 13rem;
+    width: 100%;
+    border: black;
+    margin-top: 1rem;
+    display: none;
+ }
+
+ .inputDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+    margin-top: 4rem;
+ }
+ input{
+    background-color: rgb(73, 73, 73);
+    border: rgb(73, 73, 73);
+    height: 2rem;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+ }
+
+ label{
+    font-weight: 700;
+    font-size: 1.4rem;
+ }
+
+ /* === removing default button style ===*/
+ button {
+    border-radius: .25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    height: 40px;
+    font-size: 0.7rem;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    background-image: linear-gradient(90deg,#e91010,rgb(73, 73, 73));
+    border: 0 solid;
+    overflow: hidden;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .explanationAndTitle{
+    margin-top: rem;
+  }
+
+  footer{
+    margin-top: 4rem;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+   height: 3rem;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fdfdfd;
+  }
