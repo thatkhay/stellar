@@ -4,14 +4,20 @@ body{
     min-height: 100%;
     background-position: center;
     background-size: cover;
-    padding: 1rem;
+    padding: 0;
     text-align: center;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 h1{
     font-family: 'Caveat', cursive;
     color: #e91010;
     font-weight: 700;
-    
+    width: 90%;
+   
 }
 
 html{
@@ -24,6 +30,8 @@ html{
  p{
     color: #e91010;
     font-weight: 400;
+    width: 95%;
+    padding: 0 1rem 0 -1rem;
  }
  h5{
     font-size: small;
@@ -96,6 +104,10 @@ html{
 
   .explanationAndTitle{
     margin-top: rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   footer{
@@ -104,10 +116,29 @@ html{
     font-weight: 200;
     background-color: rgb(73, 73, 73);
     width: 100%;
-   height: 3rem;
+   height: 4rem;
    text-align: center;
    display: flex;
    justify-content: center;
    align-items: center;
    color: #fdfdfd;
+  }
+  .container{
+   display: flex;
+   flex-direction: column;
+
+justify-content: center;
+align-items: center;
+  }
+
+  .topDiv{
+   width: 100%;
+   text-align: center;
+   display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  }
+  h3{
+   width: 80%;
   }
