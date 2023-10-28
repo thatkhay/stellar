@@ -8,4 +8,4 @@ Contributing
 
 We welcome contributions from everyone! If you have a suggestion for a future Picture of the Day or would like to contribute code to improve the website, please feel free to submit a pull request.
 
-To get started, you will need to have Git installed on your local machine. Fork this repository to your own account and then clone it to your machine. Make sure to create a new branch for your changes.
+To get started, you will need to have Git installed on your local machine. Fork this repository to your own account and then clone it to your machine.Make sure to create a new branch for your changes.
