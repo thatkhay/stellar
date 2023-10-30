@@ -4,7 +4,7 @@ Welcome to the NASA Picture of the Day repository! This website features stunnin
 Usage
 
 To view the Picture of the Day, simply visit the website at [INSERT WEBSITE URL HERE], and the latest image will be displayed. You can also browse through our archives to view previous pictures of the day, dating back several years.
-Contributing
+Contributing .
 
 We welcome contributions from everyone! If you have a suggestion for a future Picture of the Day or would like to contribute code to improve the website, please feel free to submit a pull request.
 
